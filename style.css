@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+header .left {
+  align-items: center;
+  /* margin-left: 100px; */
+  display: flex;
+  gap: 20px;
+}
+header .left button {
+  width: 80px;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  color: #3333CC;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+header .right {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+header .center .find {
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding-right: 10px;
+}
+header .center .find input {
+  width: 698px;
+  height: 32px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+
+} 
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+header .right .cart_header {
+  display: flex;
+  gap: 10px;
+}
+header .right .cart_header .cart_counter {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(87.38deg, #9643FF 1.53%, #5200BA 98.76%);
+  border-radius: 2px; 
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+}
