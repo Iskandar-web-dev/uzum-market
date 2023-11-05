@@ -4,6 +4,11 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+main {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
 header {
   width: 100%;
   max-width: 1400px;
@@ -67,4 +72,7 @@ header .right .cart_header .cart_counter {
   justify-content: center;
   color: white;
   font-size: 15px;
+}
+body {
+  
 }
